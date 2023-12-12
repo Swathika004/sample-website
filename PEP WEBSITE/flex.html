@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+  display: flex;
+  justify-content: space-between; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically */
+  height: 100vh; /* Adjust the height as needed */
+flex-direction: row-reverse;
+
+}
+
+
+img {
+    width: 300px; /* Set a fixed width for the images */
+  height: 300px; /* Set a fixed height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin: 0 10px
+ 
+}
+img:hover{
+        width:500px;
+        height: 500px;
+        
+        
+     }  
+     div:hover{
+        width:500px;
+        height: 500px;
+        font-size: larger;
+     }
+
+     .ab{
+        content: justify;
+        align-content: space-around;
+        justify-content: space-between;
+        text-align: justify;
+        padding: 10px;
+        border: 1px solid black;
+        margin-right: 10px;
+        height: 450px;
+        flex-wrap: wrap;
+     }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+      
+       <div class="ab" style="flex-grow: 10;"><img src="C:\Users\91944\Downloads\1.png"alt="Image 1"><p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p></div>
+       <div class="ab" style="flex-grow: 10;"><img src="C:\Users\91944\Downloads\2.png" alt="Image 2"><p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p></div>
+       <div class ="ab"> <img src="C:\Users\91944\Downloads\3.png"alt="Image 3"><p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries</p></div>
+      </div>
+</body>
+</html>
